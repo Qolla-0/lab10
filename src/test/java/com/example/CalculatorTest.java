@@ -96,7 +96,6 @@ public class CalculatorTest {
         assertEquals(8.0, calculator.power(2.0, 3.0), 0.001);
     }
 
-    // Step definitions for Allure
     @Step("Perform addition of {a} and {b}")
     private void stepPerformAddition(double a, double b) {
         System.out.printf("Adding %.2f and %.2f%n", a, b);
