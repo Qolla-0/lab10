@@ -27,4 +27,8 @@ public class Calculator {
         }
         return Math.sqrt(a);
     }
+
+    public double power(double base, double exponent) {
+        return Math.pow(base, exponent);
+    }
 }
